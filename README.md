@@ -48,4 +48,4 @@ Não há necessidade de nennhum npm ao fazer o git.clone.
 <img src="./src/image/logotipo-do-github.png" alt="Github"> https://github.com/IsaiasLourenco<br>
 <img src="./src/image/logotipo-do-linkedin.png" alt="Linkedin"> https://www.linkedin.com/in/isaias-louren%C3%A7o/
 
-<img src="./src/image/apigithub.gif" alt="Delivering">
+<img src="./src/image/apigithubresult.gif	" alt="Delivering">
