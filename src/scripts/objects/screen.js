@@ -20,9 +20,9 @@ const screen = {
         user.repositories.forEach((repo, index) => {
             repositoriesItems +=    `<li><a href="${repo.html_url}" target="_blank">${repo.name}<br><br>
                                     <div class="repository-info-container">
-                                    <div class="repository-info">🍴${this.checkZero(user.repository.repostitoryForksCount, "Sem forks")}</div>
-                                    <div class="repository-info">⭐${this.checkZero(user.repository.repostitoryStargazersCount, "Sem estrelas")}</div>
-                                    <div class="repository-info">👀${this.checkZero(user.repository.repostitoryWatchersCount, "Ninguém olhando!")}</div>
+                                    <div class="repository-info">🍴${user.repository.repostitoryForksCount[index] ?? "Sem forks"}</div>
+                                    <div class="repository-info">⭐${user.repository.repostitoryStargazersCount[index] ?? "Sem estrelas"}</div>
+                                    <div class="repository-info">👀${user.repository.repostitoryWatchersCount[index] ?? "Ninguém olhando!"}</div>
                                     <div class="repository-info">💻${user.repository.repositoryLanguage[index] ?? "Sem linguagem atribuída"}</div>
                                     </div>
                                     </a></li>`;
